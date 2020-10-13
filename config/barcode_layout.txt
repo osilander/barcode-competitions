@@ -1,0 +1,10 @@
+sample	barcode	strain
+mixed_2	barcode_18	SC1_G3a
+mixed_2	barcode_23	SC1_G3b
+mixed_7	barcode_1	SC1_A3
+mixed_7	barcode_6	SC1_A1
+mixed_7	barcode_9	SC1_D7
+mixed_7	barcode_4	SC2_C6
+mixed_7	barcode_17	SC2_E4
+mixed_7	barcode_18	SC2_G3
+mixed_7	barcode_10	SC1_C11
