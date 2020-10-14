@@ -89,6 +89,13 @@ for(s in 1:length(samples)) {
 		}
 		# stick in a legend
 		legend(35,0.6,pch=19,col=plot.cols,legend=strain.fract$strain,bty="n")
+		# add some useful text
+		total.reads <- sum(strain.counts[,3:5])
+		text(7,1,labels=paste("total reads: ",total.reads, sep=""))
+		# kludgy needs to be fixed
+		text(7,0.95,labels=paste("t0: ",sum(strain.counts[1:2,3]),sep=""))
+		text(7,0.90,labels=paste("t1: ",sum(strain.counts[1:2,4]),sep=""))
+		text(7,0.85,labels=paste("t2: ",sum(strain.counts[1:2,5]),sep=""))
 	}
 }
 dev.off()
